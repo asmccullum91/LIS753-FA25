@@ -1,0 +1,19 @@
+h1 {
+    color: #ea898a;
+    font-family: comic sans ms;
+    font-size: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+img {
+    border: 3px solid black;
+    padding: 5px;
+}
+figure img {
+    display: block;
+    margin: 0px auto;
+}
+p {
+    font-family: comic sans ms;
+}
