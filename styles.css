@@ -1,3 +1,25 @@
+nav ul {
+  list-style: none;
+  padding: 0;
+  border: 1px medium solid black;
+  border: thick double;
+  width: 200px;
+}
+nav ul li {
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+nav ul li:last-child {
+  border-bottom: none; 
+}
+nav ul li a {
+  color: #ea898a;
+  font-weight: bold;
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
 h1 {
     color: #ea898a;
     font-family: comic sans ms;
