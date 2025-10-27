@@ -32,7 +32,6 @@ body {
 nav ul li a:hover {
   text-decoration: underline;
 }
-
 h1 {
   color: #c3091e;
   font-size: 60px;
@@ -51,6 +50,9 @@ img {
 }
 article {
   font-size: 20px;
+}
+div {
+  font-size: 25px;
 }
 .emphasize {
   background-color: #09c3ae;
