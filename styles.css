@@ -39,11 +39,31 @@ h1 {
   text-transform: uppercase; 
   text-decoration: underline; 
 }
+@media all and (max-width: 390px) {
+  h1 {
+  color: #ea898a; 
+  font-family: comic sans ms; 
+  font-size: 40px; 
+  text-align: center; 
+  text-transform: uppercase; 
+  text-decoration: underline; 
+}
+}
 img {
   max-width: 100%;
   height: auto;
   border: 3px solid black;
   padding: 5px;
+}
+@media all and (max-width: 390px) {
+  img {
+  display: block;
+  margin: 0px auto;
+  max-width: 100%;
+  height: auto;
+  border: 3px solid black;
+  padding: 5px;
+}
 }
 .header-image {
   display: block;
@@ -52,9 +72,24 @@ img {
   p {
   font-family: comic sans ms;
 }
+@media all and (max-width: 390px) {
+   p {
+  text-align: center;
+  font-family: comic sans ms;
+}
+}
 h2 {
   font-size: 30px;
   text-decoration: underline;
   color: #ea898a; 
   font-family: comic sans ms; 
+}
+@media all and (max-width: 390px) {
+  h2 {
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+  color: #ea898a; 
+  font-family: comic sans ms; 
+}
 }
