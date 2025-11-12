@@ -1,0 +1,27 @@
+h1 {
+  font-size: 50px; 
+  text-align: center; 
+  text-transform: uppercase; 
+  text-decoration: underline;
+}
+figure img {
+  display: block;
+  margin: 0px auto;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border: 3px solid black;
+  padding: 5px;
+}
+#float {
+  float: left;
+}
+#message {
+  border: 1px solid black;
+  padding: 10px 15px;
+  margin: 5px 0;
+}
+#message button {
+  float: right;
+}
